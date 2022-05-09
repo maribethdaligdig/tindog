@@ -1,0 +1,193 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: center;
+
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+
+}
+
+/* Headings */
+
+.big-heading {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Title Section */
+
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Nav section */
+
+.navbar {
+  background-color: #ff4c68;
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.download-button {
+  margin: 3% 5% 3% 0;
+}
+
+.title-img {
+  transform: rotate(25deg);
+  width: 19rem;
+  right: 23%;
+  /* to make the img covered at the bottom */
+  position: absolute;
+
+
+}
+
+
+/* Features section*/
+
+#features{
+  /* to cover the bottom of the title-img*/
+  position: relative;
+
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.features-box{
+  padding: 5%;
+
+}
+
+.features-icons {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+
+/* Testimonials Section */
+
+#testimonial {
+  background-color: #ef8172;
+
+}
+
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.card-body {
+  height: 360px;
+}
+
+.signup-btn {
+  margin-top: 40px;
+}
+
+/* CTA section */
+
+
+.socials{
+  padding: 1rem;
+
+}
+
+/* Media Queries */
+
+@media only screen and (max-device-width: 800px) {
+
+#title .container-fluid{
+  text-align: center;
+
+}
+
+.title-img {
+  transform: rotate(0);
+  position: static;
+  margin-top: 2rem;
+}
+
+}
